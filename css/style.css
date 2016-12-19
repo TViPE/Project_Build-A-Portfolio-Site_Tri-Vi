@@ -1,0 +1,139 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+* { 
+	box-sizing: border-box;
+}
+
+/* header */
+.header {
+	margin-top: 20px;
+}
+
+.header-logo {
+	border-radius: 5px 30px 5px;
+}
+
+.header-title h1 {
+	font-family: "Bungee", cursive;
+}
+
+.header-title h4 {
+	font-family: "Josefin Sans", sans-serif;
+}
+
+/* main */
+.content {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.portfolio-title-row {
+	font-family: "Josefin Sans", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.portfolio-img {
+	width: 150px;
+	height: 150px;
+}
+
+.modal-header {
+	background-color: #4292f4;
+	text-align: center;
+}
+
+.modal-body img {
+	max-width: 100%;
+	}
+
+/* footer */
+footer {
+	height: 50px;
+}
+
+.zocial-icons {
+	margin: auto auto;
+}
+
+.zocial {
+	font-size: 1.5em;
+	margin-left: 20px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #e0dd18;
+}
+
+@media screen and (min-width: 413px) and (max-width: 1024px) {
+	.portfolio-img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.modal-body img {
+		max-width: 100%;
+	}
+
+	.header-title {
+		text-align: center;
+	}
+	.header-logo {
+		border-radius: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		width: 100px;
+		height: 100px;
+	}
+}
+
+@media screen and (max-width: 412px) {
+	.portfolio-img {
+		width: 50px;
+		height: 50px;
+	}
+
+	.modal-body img {
+		max-width: 100%;
+	}
+
+	.header {
+		background-color: #e0dd18;
+	}
+
+	.header-title {
+		text-align: center;
+	}
+
+	.header-logo {
+		border-radius: 50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		width: 100px;
+		height: 100px
+	}
+	.social-row {
+		background-color: #4292f4;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+

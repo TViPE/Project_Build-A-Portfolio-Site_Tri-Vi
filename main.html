@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Title -->
+    <title>Tri Vi's Portfolio</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee|Josefin+Sans" rel="stylesheet">
+	
+</head>
+<body>
+	<div class="container">
+		<!-- Header -->
+		<header class="header">
+			<div class="header_inner">
+				<div class="row header-row">
+					<div class="col-md-6 header-img">
+						<img class="header-logo" src="images/header_logo.png" alt="logo">
+					</div>
+					<div class="col-md-6 header-title text-right text-uppercase">
+						<h1>Tri Vi</h1>
+						<h4>Software Developer</h4>
+						<h4>Photographer</h4>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Line Break -->
+		<div class="row line-break-row">
+			<div class="col-md-12">
+				<hr>
+			</div>
+		</div>
+
+		<!-- Main Content -->
+		<main class="content">
+			<div class="row main-img-row">
+				<div class="col-md-12">
+					<img class="feature-img img-responsive" src="images/feature_work.jpg" alt="feature_work" >
+				</div>
+			</div>
+			<div class="row portfolio-title-row text-center ">
+				<div class="col-md-12">
+					<h2>Portfolio</h2>
+				</div>
+			</div>
+			<div class="row portfolio-description-row text-center ">
+				<!-- Coding -->
+				<article class="coding-project">
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<img class="portfolio-img img-responsive" src="images/coding_modal.png" alt="code portfolio" data-toggle="modal" data-target="#myModal1">
+						<h3>Code</h3>
+						<p><a href="http://www.linkedin.com/in/vitri" target="_blank">Coding Projects</a></p>
+					</div>
+				</article>
+				<!-- Art -->
+				<article class="art-project">
+					<div class="col-xs-4">
+						<img  class="portfolio-img img-responsive" src="images/art_modal.png" alt="art portfolio" data-toggle="modal" data-target="#myModal2">
+						<h3>Art</h3>
+						<p><a href="http://www.flickr.com/photos/7300069@N06/" target="_blank">Art Portfolio</a></p>
+					</div>
+				</article>
+				<!-- Resume -->
+				<article class="resume-project">
+					<div class="col-md-4 col-sm-4 col-xs-4">
+						<img class="portfolio-img img-responsive" src="images/resume_modal.png" alt="resume" data-toggle="modal" data-target="#myModal3">
+						<h3>Resume</h3>
+						<p><a href="pdf/TriVi_Resume.pdf" download>My Resume</a></p>
+					</div>
+				</article>
+				
+			</div>
+		</main>
+		
+		<!-- Line Break -->
+		<div class="row line-break-row">
+			<div class="col-md-12">
+				<hr>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="row social-row text-center">
+				<div class="col-md-12 zocial-icons">
+					<a href="http://plus.google.com/u/0/100350113191098715627" class="zocial zocial-googleplus" target="_blank"></a>
+					<a href="http://www.linkedin.com/in/vitri" class="zocial zocial-linkedin" target="_blank"></a>
+					<a href="http://www.flickr.com/photos/7300069@N06/" class="zocial zocial-flickr" target="_blank"></a>
+					<a href="http://github.com/TViPE" class="zocial zocial-github" target="_blank"></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- *
+		*
+		* Modals
+		*
+	-->
+
+	<!-- Modal 1 -->
+	<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Code</h4>
+				</div>
+				<div class="modal-body">
+					<div class="project coding-project1 text-left">
+						<h5>Build A Portfolio Site</h5>
+						<p>First project from the Front-End Web Developer Nanodegree in Udacity: developed and personalized a responsive website with HTML5 and CSS3 and Bootstrap Framework.</p>
+						<p><i>Environment: HTML, CSS, Bootstrap</i></p>
+					</div>
+					<hr>
+					<div class="project coding-project2 text-left">
+						<h5>Software Testing for Web Application at TCS</h5>
+						<p>This is the project from my most recent employment with Tata Consultancy Service. My duty includes working with business analyst and software development team to figure out the 
+						the test scenarios for  web application. I perform unit testing and analyze and report the rubs and work with the development team to resolve the errors.</p>
+						<p><i>Environment: Java, SQL, RESTfull Web Services, JUnit, JMeter, Git, Selenium, SoapUI</i></p>
+					</div>
+					<hr>
+					<div class="project coding-project3 text-left">
+						<h5>Software Intern at Stony Brook Hospital</h5>
+						<p>I participated in development and testing of software modules of healthcare application. I also performed various code reivews and was involved in five pair programming sessions.</p>
+						<p><i>Environment: Java, JSP, Spring MVC, Jenkins, Maven, JUnit, JavaScript, HTML, CSS</i></p>
+					</div>
+					<hr>
+					<div class="project coding-project4 text-left">
+						<h5>Home Scecurity System </h5>
+						<p>This is my senior design in college. I developed a multi-functional automatic home security system in Python that could detect unusual physical and chemical harms within the house, and notifies the homeowner wirelessly. This device was built with Raspberry Pi, Camera Module, Motion Sensor, and Gas Sensor.</p>
+						<p><i>Environment: Python, Unix, HTML, CSS</i></p>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Modal 1 -->
+
+	<!-- Modal 2 -->
+	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Art</h4>
+				</div>
+				<div class="modal-body">
+					<figure>
+						<img src="images/art01.jpg" alt="art">
+						<figcaption><i>Fig1 - Brooklyn Bridge by Tri Vi</i></figcaption>
+					</figure>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Modal 2 -->
+
+	<!-- Modal 3 -->
+	<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">My Resume</h4>
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-12 text-left">
+							<h5>Technical Skills</h5>
+							<ul>
+								<li>Passionate about performance, security, usability, and distributed scalable systems.</li>
+								<li>Proficient in Java, C++, Shell Scripting, and SQL.</li>
+								<li>Strong knowledge in HTML/JavaScript/CSS, and Python.</li>
+								<li>Experience in pair programming, agile development, code inspection, test-driven development.</li>
+								<li>Development Tools: Mac/Linux/Windows, Git, Eclipse, Visual Studio.</li>
+							</ul>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-md-9 text-left">
+							<h5>Student at Udacity</h5>
+							<ul>
+								<li>Currently pursuing Front End Web Development and Full Stack Web Development Nano Degree.</li>
+							</ul>
+						</div>
+						<div class="col-md-3 text-right">08/2016 - Present</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-md-9 text-left">
+							<h5>Software Engineer at Tata Consultancy Services</h5>
+							<ul>
+								<li>Involved in full-stack validation of the enterprise inventory management software.</li>
+								<li>Performed frontend, backend, performance, security, and usability testing.</li>
+								<li>Debugged and modified existing software to correct errors/crashes.</li>
+								<li>Evaluated the system under load and collaborated with developers to fix performance regressions.</li>
+								<li>Reviewed/tested code for security issues such as access violations, XSS, SQL injections.</li>
+							</ul>
+						</div>
+						<div class="col-md-3 text-right">09/2014 - 082016</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-md-9 text-left">
+							<h5>Software Intern at Stony Brook Hospital</h5>
+							<ul>
+								<li>Participated in development and testing of software modules for healthcare application.</li>
+								<li>Performed various code reviews and was involved in five pair programming sessions.</li>
+							</ul>
+						</div>
+						<div class="col-md-3 text-right">01/2013 - 08/2014</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Modal 3 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
